@@ -1,0 +1,82 @@
+.aBtn {
+  width: 350px;
+  height: 400px;
+	position: relative;
+	display: inline-block;
+	padding: 1.2em 2em;
+	text-decoration: none;
+	text-align: center;
+	user-select: none;
+	color: white;
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background: linear-gradient(135deg, #c6e3e6, #62a994);
+		border-radius: 10px;
+		transition: box-shadow .5s ease, transform .2s ease; 
+		will-change: transform;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+		transform:
+			translateY(var(--ty, 0))
+			rotateX(var(--rx, 0))
+			rotateY(var(--ry, 0))
+			translateZ(var(--tz, -12px));
+	}
+	
+	&:hover::before {
+		box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+	}
+	
+	&::after {
+		position: relative;
+		display: inline-block;
+		content: attr(data-title);
+		transition: transform .2s ease; 
+		font-weight: bold;
+		letter-spacing: .01em;
+		will-change: transform;
+		transform:
+			translateY(var(--ty, 0))
+			rotateX(var(--rx, 0))
+			rotateY(var(--ry, 0));
+	}
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+  :global {
+    .ant-input-affix-wrapper {
+      margin: 10px 0;
+      border-radius: 4px;
+      opacity: .8;
+    }
+    .ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+      border-color: #62a994 !important;
+    }
+    .ant-input-affix-wrapper:focus, .ant-input-affix-wrapper-focused {
+      border-color: #62a994 !important;
+      box-shadow: #62a994;
+    }
+  }
+  
+}
+
+.login {
+  text-align: center;
+  transform: translateY(210px);
+}
+
+
+// body {
+//   background: url(../../assets/img/bg.jpg) no-repeat;
+//   background-size:100% 100%;
+//   background-attachment:fixed;
+
+  
+// 	transform-style: preserve-3d;
+// 	transform: perspective(800px);
+// }

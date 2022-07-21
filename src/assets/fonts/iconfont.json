@@ -1,0 +1,100 @@
+{
+  "id": "2967209",
+  "name": "qwe",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15644324",
+      "name": "登录",
+      "font_class": "denglu",
+      "unicode": "e6bd",
+      "unicode_decimal": 59069
+    },
+    {
+      "icon_id": "1311978",
+      "name": "错",
+      "font_class": "cuo",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "7954334",
+      "name": "对勾_块",
+      "font_class": "duigou_kuai",
+      "unicode": "ed1d",
+      "unicode_decimal": 60701
+    },
+    {
+      "icon_id": "1457",
+      "name": "烈日",
+      "font_class": "lieri",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "1214",
+      "name": "呆",
+      "font_class": "dai",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1217",
+      "name": "尴尬",
+      "font_class": "ganga",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "1221",
+      "name": "生气",
+      "font_class": "shengqi",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "1263",
+      "name": "哭脸",
+      "font_class": "kulian",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1448",
+      "name": "云",
+      "font_class": "yun",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "2860",
+      "name": "中雪",
+      "font_class": "zhongxue",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "2862",
+      "name": "大雨",
+      "font_class": "dayu",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "145727",
+      "name": "搜索_填充",
+      "font_class": "sousuotianchong",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "1308298",
+      "name": "400表情_表情",
+      "font_class": "400biaoqing_biaoqing",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    }
+  ]
+}
